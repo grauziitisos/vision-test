@@ -1,3 +1,4 @@
+# test wrapper for https://github.com/qfgaohao/pytorch-ssd
 #adb forward tcp:8080 tcp:8080
 import datetime
 MODEL_NAME_SUFFIX_IMG_NAMING="_sq-ssd-lite_01-09"

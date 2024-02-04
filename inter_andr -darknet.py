@@ -1,3 +1,4 @@
+# test wrapper for https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline
 #adb forward tcp:8080 tcp:8080
 import datetime
 MODEL_NAME_SUFFIX_IMG_NAMING="_mini_darknet_01-14"
