@@ -27,7 +27,7 @@ from torch import nn
 DELETE_IMAGES_AFTER_UPLOADED = False #True
 #PATH_TO_WEIGHTS = "../../4AI_tikli_pet/2024-01-09/sq-ssd-lite/fi_dis_2024-01-09_01-51-14_sq-ssd-lite-Epoch-19-Loss-6.1730302174886065.pth"
 #path_type='2'#"1"
-PATH_TO_WEIGHTS = "../../4AI_tikli_pet/2023-12-10/sq-ssd/_fi__2023-12-10_02-51-57_sq-ssd-lite-Epoch-39-Loss-5.987395286560059.pth"
+PATH_TO_WEIGHTS = "bin/2023-12-10/sq-ssd/_fi__2023-12-10_02-51-57_sq-ssd-lite-Epoch-39-Loss-5.987395286560059.pth"
 path_type="1"
 PATH_TO_TEST_IMAGES = "__testim"
 #DEFAULT_CAMERA_URL = 'http://127.0.0.1:8080/?action=stream'

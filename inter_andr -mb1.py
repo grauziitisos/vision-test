@@ -25,7 +25,7 @@ from torch import nn
 
 #CONFIG....
 DELETE_IMAGES_AFTER_UPLOADED = False #True
-PATH_TO_WEIGHTS = "../../4AI_tikli_pet/2023-11-18/6/2023-11-16_04-19-43mb1-ssd-Epoch-12-.weights"
+PATH_TO_WEIGHTS = "bin/2023-11-18/6/2023-11-16_04-19-43mb1-ssd-Epoch-12-.weights"
 path_type="2"
 PATH_TO_TEST_IMAGES = "__testim"
 #DEFAULT_CAMERA_URL = 'http://127.0.0.1:8080/?action=stream'

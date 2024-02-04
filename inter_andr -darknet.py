@@ -25,7 +25,7 @@ from torchvision.models.detection.rpn import AnchorGenerator
 
 #CONFIG....
 DELETE_IMAGES_AFTER_UPLOADED = False #True
-PATH_TO_WEIGHTS = "../../4AI_tikli_pet/2024-01-14/sign_mini_darknet/best_model.pth"
+PATH_TO_WEIGHTS = "bin/2024-01-14/sign_mini_darknet/best_model.pth"
 PATH_TO_TEST_IMAGES = "__testim"
 #DEFAULT_CAMERA_URL = 'http://127.0.0.1:8080/?action=stream'
 DEFAULT_CAMERA_URL = 'https://cam1.jtag.me/?action=stream'
