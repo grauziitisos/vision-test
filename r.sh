@@ -7,7 +7,7 @@ fi
 for f in ./*.py; do
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo "Running $f >>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-	bn = $(basename "$f" )
+	bn=$(basename "$f" )
     python3 "$f" | tee "__result/$(date +"%Y_%m_%d-%H-%M-%S")$bn.txt"
     
     if [ $? -eq 0 ]; then
