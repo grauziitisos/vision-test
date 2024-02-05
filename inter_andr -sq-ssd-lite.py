@@ -100,7 +100,8 @@ args = vars(parser.parse_args())
 
 
 url = args['cam_url']
-SHOW_PREVIEW = True#args['show']
+SHOW_PREVIEW = True#
+SHOW_PREVIEW = args['show']
 
 
 #!CONFIG....
