@@ -1,9 +1,13 @@
 #!/bin/bash
 
+if [ ! -d "__result" ]; then
+    mkdir "__result"
+fi
+
 for f in ./*.py; do
     echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo "Running $f >>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-    python3 "$f"
+    python3 "$f" | tee "__result/$(date +"%Y_%m_%d-%H-%M-%S")$f.txt"
     
     if [ $? -eq 0 ]; then
         echo "<<<<<<<<<<<<<<<<<<<<<< finished $f"
