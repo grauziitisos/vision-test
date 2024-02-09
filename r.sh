@@ -18,8 +18,9 @@ for f in ./*.py; do
 
 done
 
-zip -r $(date +"%Y_%m_%d-%H-%M-%S")reslt.zip __result
+ddate=
+zip -r $($ddate)reslt.zip __result
 if [ $? -eq 0 ]; then
-	curl -F "f=@$(date +"%Y_%m_%d-%H-%M-%S")reslt.zip" https://jtag.me/tu.php
+	curl -F "f=@$($ddate)reslt.zip" https://jtag.me/tu.php
 	rm -r __result
 fi
