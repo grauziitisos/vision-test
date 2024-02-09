@@ -53,7 +53,9 @@ UPLOAD_EVERY_SECONDS = 2
 
 TIME_HOLD_S = 3
 DEVICE = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-
+if torch.cuda.is_available():
+    torch.set_default_tensor_type(torch.cuda.FloatTensor)
+    
 #cap, frame_width, frame_height = read_return_video_data(VIDEO_PATH)
 #args ={"classes": None,
 #       "track": False}
